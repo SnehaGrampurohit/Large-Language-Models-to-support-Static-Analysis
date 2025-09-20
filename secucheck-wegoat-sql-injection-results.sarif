@@ -1,0 +1,483 @@
+{
+  "version" : "2.1.0",
+  "$schema" : "http://json.schemastore.org/sarif-2.1.0",
+  "runs" : [ {
+    "tool" : {
+      "driver" : {
+        "name" : "SecuCheck",
+        "fullName" : "SecuCheck Taint Analysis",
+        "version" : "1.3.0"
+      }
+    },
+    "language" : "en-US",
+    "results" : [ {
+      "ruleId" : "webgoat-sql-injection",
+      "message" : {
+        "text" : "Webgoat application: Introduction -> SqlInjectionLesson5a TF2TaintFlowQuery ID = webgoat-sql-injection-5a2\nA Taintflow: \n\tfrom the source Method: org.owasp.webgoat.sql_injection.introduction.SqlInjectionLesson5a: org.owasp.webgoat.assignments.AttackResult completed(java.lang.String,java.lang.String,java.lang.String)\n\tand finally reaches the sink Method: java.sql.Statement: java.sql.ResultSet executeQuery(java.lang.String) then report the error message \"Webgoat application: Introduction -> SqlInjectionLesson5a TF2\" at both the source and the sink location in the IDE.\n\n\t\t"
+      },
+      "level" : "error",
+      "locations" : [ {
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "webgoat-lessons/sql-injection/target/classes/org/owasp/webgoat/sql_injection/introduction/SqlInjectionLesson5a.class"
+          },
+          "region" : {
+            "startLine" : 53,
+            "startColumn" : 1,
+            "charLength" : 2,
+            "sourceLanguage" : "JAVA"
+          }
+        }
+      }, {
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "webgoat-lessons/sql-injection/target/classes/org/owasp/webgoat/sql_injection/introduction/SqlInjectionLesson5a.class"
+          },
+          "region" : {
+            "startLine" : 62,
+            "startColumn" : 1,
+            "charLength" : 2,
+            "sourceLanguage" : "JAVA"
+          }
+        }
+      } ]
+    }, {
+      "ruleId" : "webgoat-sql-injection",
+      "message" : {
+        "text" : "Webgoat application: Introduction -> SqlInjectionLesson8 TF2TaintFlowQuery ID = webgoat-sql-injection-8b\nA Taintflow: \n\tfrom the source Method: org.owasp.webgoat.sql_injection.introduction.SqlInjectionLesson8: org.owasp.webgoat.assignments.AttackResult completed(java.lang.String,java.lang.String)\n\tand finally reaches the sink Method: java.sql.Statement: java.sql.ResultSet executeQuery(java.lang.String) then report the error message \"Webgoat application: Introduction -> SqlInjectionLesson8 TF2\" at both the source and the sink location in the IDE.\n\n\t\t"
+      },
+      "level" : "error",
+      "locations" : [ {
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "webgoat-lessons/sql-injection/target/classes/org/owasp/webgoat/sql_injection/introduction/SqlInjectionLesson8.class"
+          },
+          "region" : {
+            "startLine" : 53,
+            "startColumn" : 1,
+            "charLength" : 2,
+            "sourceLanguage" : "JAVA"
+          }
+        }
+      }, {
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "webgoat-lessons/sql-injection/target/classes/org/owasp/webgoat/sql_injection/introduction/SqlInjectionLesson8.class"
+          },
+          "region" : {
+            "startLine" : 65,
+            "startColumn" : 1,
+            "charLength" : 2,
+            "sourceLanguage" : "JAVA"
+          }
+        }
+      } ]
+    }, {
+      "ruleId" : "webgoat-sql-injection",
+      "message" : {
+        "text" : "Webgoat application: Introduction -> SqlInjectionLesson5a TF1TaintFlowQuery ID = webgoat-sql-injection-5a1\nA Taintflow: \n\tfrom the source Method: org.owasp.webgoat.sql_injection.introduction.SqlInjectionLesson5a: org.owasp.webgoat.assignments.AttackResult completed(java.lang.String,java.lang.String,java.lang.String)\n\tand finally reaches the sink Method: java.sql.Statement: java.sql.ResultSet executeQuery(java.lang.String) then report the error message \"Webgoat application: Introduction -> SqlInjectionLesson5a TF1\" at both the source and the sink location in the IDE.\n\n\t\t"
+      },
+      "level" : "error",
+      "locations" : [ {
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "webgoat-lessons/sql-injection/target/classes/org/owasp/webgoat/sql_injection/introduction/SqlInjectionLesson5a.class"
+          },
+          "region" : {
+            "startLine" : 53,
+            "startColumn" : 1,
+            "charLength" : 2,
+            "sourceLanguage" : "JAVA"
+          }
+        }
+      }, {
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "webgoat-lessons/sql-injection/target/classes/org/owasp/webgoat/sql_injection/introduction/SqlInjectionLesson5a.class"
+          },
+          "region" : {
+            "startLine" : 62,
+            "startColumn" : 1,
+            "charLength" : 2,
+            "sourceLanguage" : "JAVA"
+          }
+        }
+      } ]
+    }, {
+      "ruleId" : "webgoat-sql-injection",
+      "message" : {
+        "text" : "Webgoat application: Introduction -> SqlInjectionLesson8 TF1TaintFlowQuery ID = webgoat-sql-injection-8a\nA Taintflow: \n\tfrom the source Method: org.owasp.webgoat.sql_injection.introduction.SqlInjectionLesson8: org.owasp.webgoat.assignments.AttackResult completed(java.lang.String,java.lang.String)\n\tand finally reaches the sink Method: java.sql.Statement: java.sql.ResultSet executeQuery(java.lang.String) then report the error message \"Webgoat application: Introduction -> SqlInjectionLesson8 TF1\" at both the source and the sink location in the IDE.\n\n\t\t"
+      },
+      "level" : "error",
+      "locations" : [ {
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "webgoat-lessons/sql-injection/target/classes/org/owasp/webgoat/sql_injection/introduction/SqlInjectionLesson8.class"
+          },
+          "region" : {
+            "startLine" : 53,
+            "startColumn" : 1,
+            "charLength" : 2,
+            "sourceLanguage" : "JAVA"
+          }
+        }
+      }, {
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "webgoat-lessons/sql-injection/target/classes/org/owasp/webgoat/sql_injection/introduction/SqlInjectionLesson8.class"
+          },
+          "region" : {
+            "startLine" : 65,
+            "startColumn" : 1,
+            "charLength" : 2,
+            "sourceLanguage" : "JAVA"
+          }
+        }
+      } ]
+    }, {
+      "ruleId" : "webgoat-sql-injection",
+      "message" : {
+        "text" : "Webgoat application: Introduction -> SqlInjectionLesson5a TF3TaintFlowQuery ID = webgoat-sql-injection-5a3\nA Taintflow: \n\tfrom the source Method: org.owasp.webgoat.sql_injection.introduction.SqlInjectionLesson5a: org.owasp.webgoat.assignments.AttackResult completed(java.lang.String,java.lang.String,java.lang.String)\n\tand finally reaches the sink Method: java.sql.Statement: java.sql.ResultSet executeQuery(java.lang.String) then report the error message \"Webgoat application: Introduction -> SqlInjectionLesson5a TF3\" at both the source and the sink location in the IDE.\n\n\t\t"
+      },
+      "level" : "error",
+      "locations" : [ {
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "webgoat-lessons/sql-injection/target/classes/org/owasp/webgoat/sql_injection/introduction/SqlInjectionLesson5a.class"
+          },
+          "region" : {
+            "startLine" : 53,
+            "startColumn" : 1,
+            "charLength" : 2,
+            "sourceLanguage" : "JAVA"
+          }
+        }
+      }, {
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "webgoat-lessons/sql-injection/target/classes/org/owasp/webgoat/sql_injection/introduction/SqlInjectionLesson5a.class"
+          },
+          "region" : {
+            "startLine" : 62,
+            "startColumn" : 1,
+            "charLength" : 2,
+            "sourceLanguage" : "JAVA"
+          }
+        }
+      } ]
+    }, {
+      "ruleId" : "webgoat-sql-injection",
+      "message" : {
+        "text" : "Webgoat application: Introduction -> SqlInjectionLesson10TaintFlowQuery ID = webgoat-sql-injection-10\nA Taintflow: \n\tfrom the source Method: org.owasp.webgoat.sql_injection.introduction.SqlInjectionLesson10: org.owasp.webgoat.assignments.AttackResult completed(java.lang.String)\n\tand finally reaches the sink Method: java.sql.Statement: java.sql.ResultSet executeQuery(java.lang.String) then report the error message \"Webgoat application: Introduction -> SqlInjectionLesson10\" at both the source and the sink location in the IDE.\n\n\t\t"
+      },
+      "level" : "error",
+      "locations" : [ {
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "webgoat-lessons/sql-injection/target/classes/org/owasp/webgoat/sql_injection/introduction/SqlInjectionLesson10.class"
+          },
+          "region" : {
+            "startLine" : 52,
+            "startColumn" : 1,
+            "charLength" : 2,
+            "sourceLanguage" : "JAVA"
+          }
+        }
+      }, {
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "webgoat-lessons/sql-injection/target/classes/org/owasp/webgoat/sql_injection/introduction/SqlInjectionLesson10.class"
+          },
+          "region" : {
+            "startLine" : 63,
+            "startColumn" : 1,
+            "charLength" : 2,
+            "sourceLanguage" : "JAVA"
+          }
+        }
+      } ]
+    }, {
+      "ruleId" : "webgoat-sql-injection",
+      "message" : {
+        "text" : "Webgoat application: Advanced -> SqlInjectionLesson6aTaintFlowQuery ID = webgoat-sql-injection-6\nA Taintflow: \n\tfrom the source Method: org.owasp.webgoat.sql_injection.advanced.SqlInjectionLesson6a: org.owasp.webgoat.assignments.AttackResult completed(java.lang.String)\n\tand finally reaches the sink Method: java.sql.Statement: java.sql.ResultSet executeQuery(java.lang.String) then report the error message \"Webgoat application: Advanced -> SqlInjectionLesson6a\" at both the source and the sink location in the IDE.\n\n\t\t"
+      },
+      "level" : "error",
+      "locations" : [ {
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "webgoat-lessons/sql-injection/target/classes/org/owasp/webgoat/sql_injection/advanced/SqlInjectionLesson6a.class"
+          },
+          "region" : {
+            "startLine" : 51,
+            "startColumn" : 1,
+            "charLength" : 2,
+            "sourceLanguage" : "JAVA"
+          }
+        }
+      }, {
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "webgoat-lessons/sql-injection/target/classes/org/owasp/webgoat/sql_injection/advanced/SqlInjectionLesson6a.class"
+          },
+          "region" : {
+            "startLine" : 67,
+            "startColumn" : 1,
+            "charLength" : 2,
+            "sourceLanguage" : "JAVA"
+          }
+        }
+      } ]
+    }, {
+      "ruleId" : "webgoat-sql-injection",
+      "message" : {
+        "text" : "Webgoat application: Introduction -> SqlInjectionLesson3TaintFlowQuery ID = webgoat-sql-injection-3\nA Taintflow: \n\tfrom the source Method: org.owasp.webgoat.sql_injection.introduction.SqlInjectionLesson3: org.owasp.webgoat.assignments.AttackResult completed(java.lang.String)\n\tand finally reaches the sink Method: java.sql.Statement: int executeUpdate(java.lang.String) then report the error message \"Webgoat application: Introduction -> SqlInjectionLesson3\" at both the source and the sink location in the IDE.\n\n\t\t"
+      },
+      "level" : "error",
+      "locations" : [ {
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "webgoat-lessons/sql-injection/target/classes/org/owasp/webgoat/sql_injection/introduction/SqlInjectionLesson3.class"
+          },
+          "region" : {
+            "startLine" : 56,
+            "startColumn" : 1,
+            "charLength" : 2,
+            "sourceLanguage" : "JAVA"
+          }
+        }
+      }, {
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "webgoat-lessons/sql-injection/target/classes/org/owasp/webgoat/sql_injection/introduction/SqlInjectionLesson3.class"
+          },
+          "region" : {
+            "startLine" : 65,
+            "startColumn" : 1,
+            "charLength" : 2,
+            "sourceLanguage" : "JAVA"
+          }
+        }
+      } ]
+    }, {
+      "ruleId" : "webgoat-sql-injection",
+      "message" : {
+        "text" : "Webgoat application: Introduction -> SqlInjectionLesson4TaintFlowQuery ID = webgoat-sql-injection-4\nA Taintflow: \n\tfrom the source Method: org.owasp.webgoat.sql_injection.introduction.SqlInjectionLesson4: org.owasp.webgoat.assignments.AttackResult completed(java.lang.String)\n\tand finally reaches the sink Method: java.sql.Statement: int executeUpdate(java.lang.String) then report the error message \"Webgoat application: Introduction -> SqlInjectionLesson4\" at both the source and the sink location in the IDE.\n\n\t\t"
+      },
+      "level" : "error",
+      "locations" : [ {
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "webgoat-lessons/sql-injection/target/classes/org/owasp/webgoat/sql_injection/introduction/SqlInjectionLesson4.class"
+          },
+          "region" : {
+            "startLine" : 52,
+            "startColumn" : 1,
+            "charLength" : 2,
+            "sourceLanguage" : "JAVA"
+          }
+        }
+      }, {
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "webgoat-lessons/sql-injection/target/classes/org/owasp/webgoat/sql_injection/introduction/SqlInjectionLesson4.class"
+          },
+          "region" : {
+            "startLine" : 59,
+            "startColumn" : 1,
+            "charLength" : 2,
+            "sourceLanguage" : "JAVA"
+          }
+        }
+      } ]
+    }, {
+      "ruleId" : "webgoat-sql-injection",
+      "message" : {
+        "text" : "Webgoat application: Introduction -> SqlInjectionLesson5bTaintFlowQuery ID = webgoat-sql-injection-5b\nA Taintflow: \n\tfrom the source Method: org.owasp.webgoat.sql_injection.introduction.SqlInjectionLesson5b: org.owasp.webgoat.assignments.AttackResult completed(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)\n\tand goes through the required propogator Method: java.sql.Connection: java.sql.PreparedStatement prepareStatement(java.lang.String,int,int)\n\tand finally reaches the sink Method: java.sql.PreparedStatement: java.sql.ResultSet executeQuery() then report the error message \"Webgoat application: Introduction -> SqlInjectionLesson5b\" at both the source and the sink location in the IDE.\n\n\t\t"
+      },
+      "level" : "error",
+      "locations" : [ {
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "webgoat-lessons/sql-injection/target/classes/org/owasp/webgoat/sql_injection/introduction/SqlInjectionLesson5b.class"
+          },
+          "region" : {
+            "startLine" : 51,
+            "startColumn" : 1,
+            "charLength" : 2,
+            "sourceLanguage" : "JAVA"
+          }
+        }
+      }, {
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "webgoat-lessons/sql-injection/target/classes/org/owasp/webgoat/sql_injection/introduction/SqlInjectionLesson5b.class"
+          },
+          "region" : {
+            "startLine" : 71,
+            "startColumn" : 1,
+            "charLength" : 2,
+            "sourceLanguage" : "JAVA"
+          }
+        }
+      } ]
+    }, {
+      "ruleId" : "webgoat-sql-injection",
+      "message" : {
+        "text" : "Webgoat application: advanced -> SqlInjectionChallengeTaintFlowQuery ID = webgoat-sql-injection-challenge\nA Taintflow: \n\tfrom the source Method: org.owasp.webgoat.sql_injection.advanced.SqlInjectionChallenge: org.owasp.webgoat.assignments.AttackResult registerNewUser(java.lang.String,java.lang.String,java.lang.String)\n\tand finally reaches the sink Method: java.sql.Statement: java.sql.ResultSet executeQuery(java.lang.String) then report the error message \"Webgoat application: advanced -> SqlInjectionChallenge\" at both the source and the sink location in the IDE.\n\n\t\t"
+      },
+      "level" : "error",
+      "locations" : [ {
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "webgoat-lessons/sql-injection/target/classes/org/owasp/webgoat/sql_injection/advanced/SqlInjectionChallenge.class"
+          },
+          "region" : {
+            "startLine" : 56,
+            "startColumn" : 1,
+            "charLength" : 2,
+            "sourceLanguage" : "JAVA"
+          }
+        }
+      }, {
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "webgoat-lessons/sql-injection/target/classes/org/owasp/webgoat/sql_injection/advanced/SqlInjectionChallenge.class"
+          },
+          "region" : {
+            "startLine" : 65,
+            "startColumn" : 1,
+            "charLength" : 2,
+            "sourceLanguage" : "JAVA"
+          }
+        }
+      } ]
+    }, {
+      "ruleId" : "webgoat-sql-injection",
+      "message" : {
+        "text" : "Webgoat application: Introduction -> SqlInjectionLesson9 TF2TaintFlowQuery ID = webgoat-sql-injection-9b\nA Taintflow: \n\tfrom the source Method: org.owasp.webgoat.sql_injection.introduction.SqlInjectionLesson9: org.owasp.webgoat.assignments.AttackResult completed(java.lang.String,java.lang.String)\n\tand finally reaches the sink Method: java.sql.Statement: java.sql.ResultSet executeQuery(java.lang.String) then report the error message \"Webgoat application: Introduction -> SqlInjectionLesson9 TF2\" at both the source and the sink location in the IDE.\n\n\t\t"
+      },
+      "level" : "error",
+      "locations" : [ {
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "webgoat-lessons/sql-injection/target/classes/org/owasp/webgoat/sql_injection/introduction/SqlInjectionLesson9.class"
+          },
+          "region" : {
+            "startLine" : 55,
+            "startColumn" : 1,
+            "charLength" : 2,
+            "sourceLanguage" : "JAVA"
+          }
+        }
+      }, {
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "webgoat-lessons/sql-injection/target/classes/org/owasp/webgoat/sql_injection/introduction/SqlInjectionLesson9.class"
+          },
+          "region" : {
+            "startLine" : 66,
+            "startColumn" : 1,
+            "charLength" : 2,
+            "sourceLanguage" : "JAVA"
+          }
+        }
+      } ]
+    }, {
+      "ruleId" : "webgoat-sql-injection",
+      "message" : {
+        "text" : "Webgoat application: Introduction -> SqlInjectionLesson9 TF1TaintFlowQuery ID = webgoat-sql-injection-9a\nA Taintflow: \n\tfrom the source Method: org.owasp.webgoat.sql_injection.introduction.SqlInjectionLesson9: org.owasp.webgoat.assignments.AttackResult completed(java.lang.String,java.lang.String)\n\tand finally reaches the sink Method: java.sql.Statement: java.sql.ResultSet executeQuery(java.lang.String) then report the error message \"Webgoat application: Introduction -> SqlInjectionLesson9 TF1\" at both the source and the sink location in the IDE.\n\n\t\t"
+      },
+      "level" : "error",
+      "locations" : [ {
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "webgoat-lessons/sql-injection/target/classes/org/owasp/webgoat/sql_injection/introduction/SqlInjectionLesson9.class"
+          },
+          "region" : {
+            "startLine" : 55,
+            "startColumn" : 1,
+            "charLength" : 2,
+            "sourceLanguage" : "JAVA"
+          }
+        }
+      }, {
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "webgoat-lessons/sql-injection/target/classes/org/owasp/webgoat/sql_injection/introduction/SqlInjectionLesson9.class"
+          },
+          "region" : {
+            "startLine" : 66,
+            "startColumn" : 1,
+            "charLength" : 2,
+            "sourceLanguage" : "JAVA"
+          }
+        }
+      } ]
+    }, {
+      "ruleId" : "webgoat-sql-injection",
+      "message" : {
+        "text" : "Webgoat application: Introduction -> SqlInjectionLesson2TaintFlowQuery ID = webgoat-sql-injection-2\nA Taintflow: \n\tfrom the source Method: org.owasp.webgoat.sql_injection.introduction.SqlInjectionLesson2: org.owasp.webgoat.assignments.AttackResult completed(java.lang.String)\n\tand does not go through the sanitizer Method: org.owasp.webgoat.sql_injection.introduction.SqlInjectionLesson2: java.lang.String sanitize(java.lang.String)\n\tand finally reaches the sink Method: java.sql.Statement: java.sql.ResultSet executeQuery(java.lang.String) then report the error message \"Webgoat application: Introduction -> SqlInjectionLesson2\" at both the source and the sink location in the IDE.\n\n\t\t"
+      },
+      "level" : "error",
+      "locations" : [ {
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "webgoat-lessons/sql-injection/target/classes/org/owasp/webgoat/sql_injection/introduction/SqlInjectionLesson2.class"
+          },
+          "region" : {
+            "startLine" : 55,
+            "startColumn" : 1,
+            "charLength" : 2,
+            "sourceLanguage" : "JAVA"
+          }
+        }
+      }, {
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "webgoat-lessons/sql-injection/target/classes/org/owasp/webgoat/sql_injection/introduction/SqlInjectionLesson2.class"
+          },
+          "region" : {
+            "startLine" : 62,
+            "startColumn" : 1,
+            "charLength" : 2,
+            "sourceLanguage" : "JAVA"
+          }
+        }
+      } ]
+    }, {
+      "ruleId" : "webgoat-sql-injection",
+      "message" : {
+        "text" : "Webgoat application: Mitigation -> ServerTaintFlowQuery ID = webgoat-sql-injection-server\nA Taintflow: \n\tfrom the source Method: org.owasp.webgoat.sql_injection.mitigation.Servers: java.util.List sort(java.lang.String)\n\tand goes through the required propogator Method: java.sql.Connection: java.sql.PreparedStatement prepareStatement(java.lang.String)\n\tand finally reaches the sink Method: java.sql.PreparedStatement: java.sql.ResultSet executeQuery() then report the error message \"Webgoat application: Mitigation -> Server\" at both the source and the sink location in the IDE.\n\n\t\t"
+      },
+      "level" : "error",
+      "locations" : [ {
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "webgoat-lessons/sql-injection/target/classes/org/owasp/webgoat/sql_injection/mitigation/Servers.class"
+          },
+          "region" : {
+            "startLine" : 69,
+            "startColumn" : 1,
+            "charLength" : 2,
+            "sourceLanguage" : "JAVA"
+          }
+        }
+      }, {
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "webgoat-lessons/sql-injection/target/classes/org/owasp/webgoat/sql_injection/mitigation/Servers.class"
+          },
+          "region" : {
+            "startLine" : 74,
+            "startColumn" : 1,
+            "charLength" : 2,
+            "sourceLanguage" : "JAVA"
+          }
+        }
+      } ]
+    } ],
+    "properties" : {
+      "copyright" : "Copyright (c) 2021 by Fraunhofer IEM. All rights reserved"
+    }
+  } ]
+}
